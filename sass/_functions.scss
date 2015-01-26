@@ -1,0 +1,4 @@
+$em-base: 16px !default;
+@function emCalc($pxWidth){
+	@return $pxWidth / $em-base * 1em;
+}
